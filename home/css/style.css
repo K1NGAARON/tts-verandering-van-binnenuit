@@ -1,0 +1,82 @@
+.banner {
+    justify-content: center;
+    min-height: 90vh;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+    background-color: var(--header-background);
+}
+
+.banner .row {
+    color: var(--white);
+    z-index: 10;
+    margin-top: 120px;
+}
+
+.banner.section .row.flex-col.center {
+    gap: 0;
+}
+
+.banner.section .btn {
+    margin-top: 20px;
+}
+
+.banner h1,
+.banner p {
+    text-align: left;
+}
+
+.width-60 {
+    width: 60%;
+    text-align: left;
+}
+
+.banner.section img {
+    border-radius: 15px;
+}
+
+.section.purple,
+.section.purple .row {
+    min-height: 40vh;
+}
+
+.banner.section .form-wrapper {
+    justify-content: flex-start;
+}
+
+#_form_9_._inline-form ._form-label {
+    display: none;
+}
+
+@media (max-width: 560px) {
+    .banner h1,
+    .banner p {
+        width: 100%;
+    }
+
+    .banner h1 {
+        font-size: 24px;
+    }
+
+    .form-wrapper {
+        padding: 0;
+    }
+
+    .section.purple h2 {
+        text-align: center;
+    }
+
+    p.width-60 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .form-wrapper.small {
+        width: 100%;
+    }
+
+    .banner.section .row {
+        padding-top: 30px;
+    }
+}
